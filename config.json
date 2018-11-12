@@ -1,0 +1,36 @@
+{
+    "algo": "cryptonight",
+    "api": {
+        "worker": "rig",
+        "port": 8820,
+        "access-token": "password"
+    },
+    "cuda-bfactor": 6,
+    "cuda-bsleep": 25,
+    "cuda-max-threads": 64,
+    "pools": [
+        {
+            "url": "xmr-eu1.nanopool.org:14444",
+            "user": "",
+            "pass": "x",
+            "tls": false,
+            "variant": -1,
+            "nicehash": false,
+            "keepalive": true
+        },
+        {
+            "url": "xmr-eu2.nanopool.org:14444",
+            "user": "",
+            "pass": "x",
+            "tls": false,
+            "variant": -1,
+            "nicehash": false,
+            "keepalive": true
+        }
+    ],
+    "threads": [
+        {
+            "index": 0
+        }
+    ]
+}
